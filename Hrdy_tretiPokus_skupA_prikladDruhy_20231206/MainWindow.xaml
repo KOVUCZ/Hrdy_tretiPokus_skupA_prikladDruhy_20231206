@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hrdy_tretiPokus_skupA_prikladDruhy_20231206"
         mc:Ignorable="d"
-        Title="ČTVEREČKY | třetí pokus testu - 15. listopadu 2023 | Autor: Adam Hrdý" Height="450" Width="815">
+        Title="ČTVEREČKY | třetí pokus testu - 15. listopadu 2023 | Autor: Adam Hrdý" Height="460" Width="815">
     <Grid>
         <Label x:Name="ProjectNameLabel" Content="ČTVEREČKY" HorizontalAlignment="Left" Height="42" Margin="10,10,0,0" VerticalAlignment="Top" Width="122" FontSize="20" FontWeight="Bold" Background="#FF9C9C9C"/>
         <Label x:Name="LabelInputX" Content="X=" HorizontalAlignment="Left" Height="42" Margin="162,10,0,0" VerticalAlignment="Top" Width="84" FontSize="24" FontWeight="Bold"/>

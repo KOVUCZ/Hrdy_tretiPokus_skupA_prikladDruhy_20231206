@@ -29,11 +29,36 @@ namespace Hrdy_tretiPokus_skupA_prikladDruhy_20231206
         {
             double x;
             double y;
+            double leva =0;
+            double prava =0;
 
             try
             {
+                
                 x = double.Parse(InputX.Text);
                 y = double.Parse(InputY.Text);
+
+                for (int i = 0; i < y; i++)
+                {
+                    prava = prava + 40;
+                    leva = 0;
+                    for(int j = 0; j < x; j++)
+                    {
+                        leva = leva + 40;
+                        Rectangle rectangle = new Rectangle();
+                        rectangle.Width = 20;
+                        rectangle.Height = 20;
+                        rectangle.Fill = Brushes.Red;
+                        rectangle.Stroke = Brushes.Black;
+
+                        Canvas.SetLeft(rectangle, 0+leva);
+                        Canvas.SetTop(rectangle, 0+prava);
+
+                        TheField.Children.Add(rectangle);
+                    }
+                }
+
+                
 
             }
             catch (Exception ex)
