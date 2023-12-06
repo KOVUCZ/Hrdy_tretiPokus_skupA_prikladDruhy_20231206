@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hrdy_tretiPokus_skupA_prikladDruhy_20231206"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="ČTVEREČKY | třetí pokus testu - 15. listopadu 2023 | Autor: Adam Hrdý" Height="450" Width="800">
     <Grid>
         <Label x:Name="ProjectNameLabel" Content="ČTVEREČKY" HorizontalAlignment="Left" Height="42" Margin="10,10,0,0" VerticalAlignment="Top" Width="122" FontSize="20" FontWeight="Bold" Background="#FF9C9C9C"/>
         <Label x:Name="LabelInputX" Content="X=" HorizontalAlignment="Left" Height="42" Margin="162,10,0,0" VerticalAlignment="Top" Width="84" FontSize="24" FontWeight="Bold"/>
         <Label x:Name="LabelInputY" Content="Y=" HorizontalAlignment="Left" Height="42" Margin="162,69,0,0" VerticalAlignment="Top" Width="84" FontSize="24" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Height="42" Margin="262,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="138"/>
-        <TextBox HorizontalAlignment="Left" Height="42" Margin="262,69,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="138"/>
+        <TextBox x:Name="InputX" HorizontalAlignment="Left" Height="42" Margin="262,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="138"/>
+        <TextBox x:Name="InputY" HorizontalAlignment="Left" Height="42" Margin="262,69,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="138"/>
         <Button x:Name="GenerateClick" Content="TAK SE UKAŽ!" HorizontalAlignment="Left" Height="101" Margin="424,10,0,0" VerticalAlignment="Top" Width="366" FontWeight="Bold" FontSize="48"/>
+        <Canvas x:Name="TheField" HorizontalAlignment="Center" Height="258" Margin="0,166,0,0" VerticalAlignment="Top" Width="780" Background="#FFCCCCCC"/>
 
     </Grid>
 </Window>
