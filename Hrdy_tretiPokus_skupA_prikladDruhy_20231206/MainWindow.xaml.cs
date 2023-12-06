@@ -40,11 +40,11 @@ namespace Hrdy_tretiPokus_skupA_prikladDruhy_20231206
 
                 for (int i = 0; i < y; i++)
                 {
-                    prava = prava + 40;
+                    prava = prava + 22;
                     leva = 0;
                     for(int j = 0; j < x; j++)
                     {
-                        leva = leva + 40;
+                        leva = leva + 22;
                         Rectangle rectangle = new Rectangle();
                         rectangle.Width = 20;
                         rectangle.Height = 20;
@@ -63,7 +63,7 @@ namespace Hrdy_tretiPokus_skupA_prikladDruhy_20231206
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"chyba vstupu! zadávejte poute čísla prosím - {ex.Message}");
+                MessageBox.Show($"Chyba vstupu! Zadávejte poute čísla prosím - {ex.Message}");
             }
         }
     }
