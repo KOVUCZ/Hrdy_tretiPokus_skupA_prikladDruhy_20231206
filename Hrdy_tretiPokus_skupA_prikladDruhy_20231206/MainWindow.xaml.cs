@@ -24,5 +24,22 @@ namespace Hrdy_tretiPokus_skupA_prikladDruhy_20231206
         {
             InitializeComponent();
         }
+
+        private void GenerateClick_Click(object sender, RoutedEventArgs e)
+        {
+            double x;
+            double y;
+
+            try
+            {
+                x = double.Parse(InputX.Text);
+                y = double.Parse(InputY.Text);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"chyba vstupu! zadávejte poute čísla prosím - {ex.Message}");
+            }
+        }
     }
 }
